@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    background: url("space-bg.jpg") center/cover fixed;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#main-image {
+    max-width: 80%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#main-image:hover {
+    transform: scale(1.05);
+}
+
+.intro {
+    background: rgba(0,0,0,0.4);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.planets-table {
+    text-align: center;
+}
+
+.planets-table h2 {
+    margin-bottom: 20px;
+    color: #ffd700;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background: #ffd700;
+    color: black;
+}
+
+tr:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+.contact-section {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ffd700;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.back-button {
+    margin-top: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+}
